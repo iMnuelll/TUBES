@@ -1,0 +1,15 @@
+{
+    "video" : false,
+    "screenshootOnRuFailure": true,
+    "reporter": "cypress-multi-reporters",
+        "reporterOptions": {
+            "reporterEnabled": "mochawesome",
+            "mochawesomeReportOptions":{
+                "reportDir": "cypress/reports/mocha",
+                "quite": true,
+                "overwrite": false,
+                "html": false,
+                "json": true
+            }
+        }
+}
