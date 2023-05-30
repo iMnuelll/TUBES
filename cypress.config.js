@@ -1,3 +1,4 @@
+
 module.exports = {
   projectId: 'oezx53',
   e2e: {
@@ -5,4 +6,4 @@ module.exports = {
       // implement node event listeners here
     },
   },
-};
+}
