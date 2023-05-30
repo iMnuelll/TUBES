@@ -18,3 +18,4 @@ describe("Login Parabank", () => {
     cy.get('#leftPanel > ul > :nth-child(2) > a').click()
   });
 });
+  
